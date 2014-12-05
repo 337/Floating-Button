@@ -105,6 +105,17 @@ ELEX把帐号逻辑开放给CP去选择，并不刻意要求CP对接任何帐号
 ###其他接口
 如果悬浮按钮中需要支持网页版支付，CP还需要实现支付完成通知接口，该接口与OFF-APP支付中需要的接口相同，请参照OFF-APP支付部分。
 
+###Google Play IAP接入Demo
+游戏新接入Google Play IAP时，可以参考官方Demo。
+
+下载地址：[https://github.com/337/Floating-Button/releases/download/gpdemo/GooglePlayDemo.zip](https://github.com/337/Floating-Button/releases/download/gpdemo/GooglePlayDemo.zip)
+
+该工程中对关键代码添加了注释，可供参考。
+
+更详细的说明可以参考官方文档：[https://developer.android.com/google/play/billing/api.html](https://developer.android.com/google/play/billing/api.html)
+
+接入完成后的支付测试可以参考：[https://developer.android.com/google/play/billing/billing_testing.html](https://developer.android.com/google/play/billing/billing_testing.html)
+
 ##OFF-APP 支付解决方案
 ELEX为游戏提供OFF-APP支付解决方案，使游戏可以在Apple IAP和Google Play IAP之外有其他的支付选择，此项功能默认关闭，如需开启，需要提供两个接口来实现相应功能。
 
