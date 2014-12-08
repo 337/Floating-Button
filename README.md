@@ -112,6 +112,10 @@ ELEX把帐号逻辑开放给CP去选择，并不刻意要求CP对接任何帐号
 
 该工程中对关键代码添加了注释，可供参考。
 
+使用Googleplay内购功能需要设备中安装了完整的Google服务，中国的机器一般不会安装Google服务，可以通过刷机软件刷入Google服务。
+
+中国的Play商店也不能使用内购功能。需要清空Google服务和Play商店的数据，然后挂上国外vpn，再进入Play商店，如果能看到付费应用了，这时这台设备才可以使用内购功能。
+
 更详细的说明可以参考官方文档：[https://developer.android.com/google/play/billing/api.html](https://developer.android.com/google/play/billing/api.html)
 
 接入完成后的支付测试可以参考：[https://developer.android.com/google/play/billing/billing_testing.html](https://developer.android.com/google/play/billing/billing_testing.html)
